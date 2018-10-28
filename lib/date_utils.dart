@@ -6,7 +6,7 @@ class Utils {
   static final DateFormat _monthFormat = new DateFormat("MMMM yyyy");
   static final DateFormat _dayFormat = new DateFormat("dd");
   static final DateFormat _firstDayFormat = new DateFormat("MMM dd");
-  static final DateFormat _fullDayFormat = new DateFormat("EEE MMM dd, yyyy");
+  static final DateFormat _fullDayFormat = new DateFormat("EEEE dd 'de' MMMM-yyyy");
   static final DateFormat _apiDayFormat = new DateFormat("yyyy-MM-dd");
 
   static String formatMonth(DateTime d) => _monthFormat.format(d);
