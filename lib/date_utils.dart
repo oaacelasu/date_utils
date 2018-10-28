@@ -16,13 +16,13 @@ class Utils {
   static String apiDayFormat(DateTime d) => _apiDayFormat.format(d);
 
   static const List<String> weekdays = const [
-    "Sun",
-    "Mon",
-    "Tue",
-    "Wed",
-    "Thu",
-    "Fri",
-    "Sat"
+    "D",
+    "L",
+    "M",
+    "M",
+    "J",
+    "V",
+    "S"
   ];
 
   /// The list of days in a given month
